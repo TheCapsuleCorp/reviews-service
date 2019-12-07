@@ -1,0 +1,5 @@
+**/client/bundle.js
+webpack.config.js
+**/database/index.js
+**/database/seed.js
+**/spec/*

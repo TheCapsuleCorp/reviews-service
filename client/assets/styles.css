@@ -1,0 +1,231 @@
+/*
+======Rating Component Styles======
+*/
+
+body {
+  width: 750px;
+  height: 500px;
+}
+
+.reviews-rating-section {
+  font-family: Circular, '-apple-system', BlinkMacSystemFont, Roboto, 'Helvetica Neue', 'sans-serif';
+  line-height: 30px;
+  letter-spacing: .-0.6px;
+  color: #484848;
+}
+
+.reviews-rating-section h2 {
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 11px;
+}
+
+.reviews-rating {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 120px;
+  padding-left: 15px;
+  color: rgb(57,133,138);
+}
+
+.reviews-rating-cell {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin: 0 3px;
+}
+
+.reviews-rating-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+.reviews-rating-top input {
+  height: 32px;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #484848;
+  font-weight: normal;
+  padding: 7px;
+  padding-left: 32px;
+  /* background-image: url("http://18.219.35.229:80/assets/search.png"); */
+  background-position: left;
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+  border: 1px solid #DBDBDB;
+}
+
+.reviews-rating-head {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.reviews-search-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #DBDBDB;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #484848;
+  font-weight: 300;
+}
+
+.reviews-search-return {
+  color: #008489;
+  cursor: pointer;
+}
+
+.reviews-search-return:hover {
+  text-decoration: underline;
+}
+
+.reviews-rating-body {
+  /* display: flex;
+  flex-flow: column wrap;
+  height: 105px; */
+}
+
+.reviews-rating-body h3 {
+  width: 90px;
+  font-weight: 300;
+  font-size: 17px;
+  margin: 0;
+}
+
+.reviews-rating-container {
+  display: flex;
+  /* flex-flow: row nowrap; */
+  justify-content: space-between;
+  width: 45%;
+  height: 35px;
+  padding: 10px;
+}
+
+.reviews-rating-col {
+  height: 100%;
+  width: 5%;
+}
+
+/*
+======Reviews Component Styles======
+*/
+
+.reviews-section {
+  font-family: Circular, '-apple-system', BlinkMacSystemFont, Roboto, 'Helvetica Neue', 'sans-serif';
+}
+
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+.reviews-head {
+  height: 52px;
+  margin-top: 16px;
+  color: #484848;
+  font-size: 17px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  line-height: 22px;
+  word-wrap: break-word;
+}
+
+.reviews-head img {
+  height: 48px;
+  width: 48px;
+  background: #D8D8D8;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  float: left;
+}
+
+.reviews-head-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: inherit;
+}
+
+.reviews-head-name {
+  height: 50%;
+  margin-left: 16px;
+  font-weight: normal;
+  color: #484848;
+  cursor: pointer;
+}
+
+.reviews-head-date {
+  height: 50%;
+  margin-left: 16px;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.reviews-body {
+  margin: 20px 0;
+  color: #484848;
+  word-wrap: break-word;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  font-weight: 300;
+}
+
+.reviews-btn {
+  width: 37px;
+  height: 34px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  border: 1px solid #c4c4c4;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+.reviews-btn-left {
+  color: #00878B;
+  /* background-image: url("http://18.219.35.229:80/assets/left_nav.png"); */
+  background-position: center;
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+}
+
+.reviews-btn-right {
+  color: black;
+  /* background-image: url("http://18.219.35.229:80/assets/right_nav.png"); */
+  background-position: center;
+  /* background-size: 15px 15px; */
+  background-repeat: no-repeat;
+}
+
+.reviews-btn-selected {
+  color: #484848;
+  background-color: #edefed;
+}
+
+.reviews-empty-btn {
+  visibility: hidden;
+}
+
+.reviews-nav {
+  margin-top: 30px;
+}

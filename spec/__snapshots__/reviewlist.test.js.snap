@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReviewList/ReviewListEntry components render based on the passed in reviews array 1`] = `
+<div
+  className="reviews-section"
+>
+  <div
+    className="reviews-container"
+  >
+    <div
+      className="reviews-head"
+    >
+      <img
+        src="https://a0.muscache.com/im/pictures/0794b769-abf6-4127-ae9f-3c3bf53fa034.jpg?aki_policy=profile_x_medium"
+      />
+      <div
+        className="reviews-head-text"
+      >
+        <span
+          className="reviews-head-name"
+        >
+           
+          Tyler
+           
+        </span>
+        <span
+          className="reviews-head-date"
+        >
+           
+          February
+           
+          2018
+           
+        </span>
+      </div>
+    </div>
+    <div
+      className="reviews-body"
+    >
+      Great place, ideal location.
+    </div>
+  </div>
+  <div
+    className="reviews-container"
+  >
+    <div
+      className="reviews-head"
+    >
+      <img
+        src="https://a0.muscache.com/im/pictures/45a0be0d-7f73-4046-9d57-134457f2a311.jpg?aki_policy=profile_x_medium"
+      />
+      <div
+        className="reviews-head-text"
+      >
+        <span
+          className="reviews-head-name"
+        >
+           
+          Jackie
+           
+        </span>
+        <span
+          className="reviews-head-date"
+        >
+           
+          December
+           
+          2017
+           
+        </span>
+      </div>
+    </div>
+    <div
+      className="reviews-body"
+    >
+      The apartment is in a great location. A lot of bars and restaurants around that you can walk to.
+    </div>
+  </div>
+  <div
+    className="reviews-nav"
+  >
+    <button
+      className="reviews-btn reviews-empty-btn"
+    >
+      .
+    </button>
+    <button
+      className="reviews-btn reviews-btn-1 reviews-btn-selected"
+      onClick={[Function]}
+    >
+      1
+    </button>
+  </div>
+</div>
+`;
