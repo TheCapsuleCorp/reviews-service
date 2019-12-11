@@ -16,7 +16,7 @@ class Rating extends React.Component {
   }
 
   fetchRatings() {
-    $.ajax('/rooms/' + this.props.listing_id + '/ratings/', {
+    $.ajax('http://localhost:3004/rooms/' + this.props.listing_id + '/ratings/', {
       method: 'GET',
       dataType: 'json',
       success: (data) => {
